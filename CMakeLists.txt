@@ -9,7 +9,7 @@ project(
   )
 set(CMAKE_CXX_STANDARD 17)
 
-set (CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_subdirectory(ext)
 add_subdirectory(window)
@@ -21,5 +21,5 @@ target_sources(
   src/main.cpp
   )
 
-target_include_directories(desktop PUBLIC include)
-target_link_libraries(desktop PUBLIC window )
+target_link_libraries(desktop PUBLIC window)
+target_include_directories(desktop PUBLIC include ${glfw_SOURCE_DIR} ${glad_SOURCE_DIR} ${imgui_SOURCE_DIR})

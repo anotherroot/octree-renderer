@@ -1,82 +1,47 @@
 [
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/src/main.cpp.o -c /home/tilen/Projects/octree/src/main.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/src/main.cpp.o -c /home/tilen/Projects/octree/src/main.cpp",
   "file": "/home/tilen/Projects/octree/src/main.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/cc -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -o CMakeFiles/desktop.dir/ext/glad/src/glad.c.o -c /home/tilen/Projects/octree/ext/glad/src/glad.c",
+  "command": "/usr/bin/cc -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -o CMakeFiles/desktop.dir/ext/glad/src/glad.c.o -c /home/tilen/Projects/octree/ext/glad/src/glad.c",
   "file": "/home/tilen/Projects/octree/ext/glad/src/glad.c"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/ext/imgui/imgui_draw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_draw.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_draw.cpp",
   "file": "/home/tilen/Projects/octree/ext/imgui/imgui_draw.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/ext/imgui/imgui_widgets.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_widgets.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_widgets.cpp",
   "file": "/home/tilen/Projects/octree/ext/imgui/imgui_widgets.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/ext/imgui/imgui_tables.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_tables.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_tables.cpp",
   "file": "/home/tilen/Projects/octree/ext/imgui/imgui_tables.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/ext/imgui/imgui_demo.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_demo.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_demo.cpp",
   "file": "/home/tilen/Projects/octree/ext/imgui/imgui_demo.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/ext/imgui/imgui.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui.cpp",
   "file": "/home/tilen/Projects/octree/ext/imgui/imgui.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/ext/imgui/backends/imgui_impl_glfw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_glfw.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_glfw.cpp",
   "file": "/home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_glfw.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/include -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o CMakeFiles/desktop.dir/ext/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_opengl3.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_opengl3.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_draw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_draw.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_draw.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_widgets.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_widgets.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_widgets.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_tables.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_tables.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_tables.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui_demo.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_demo.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_demo.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/imgui.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_glfw.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_glfw.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_opengl3.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -I/home/tilen/Projects/octree/ext/glfw/include -g -std=gnu++17 -o ext/CMakeFiles/imgui.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_opengl3.cpp",
   "file": "/home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_opengl3.cpp"
 },
 {
@@ -166,47 +131,12 @@
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/src/win.cpp.o -c /home/tilen/Projects/octree/window/src/win.cpp",
+  "command": "/usr/bin/c++ -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/src/win.cpp.o -c /home/tilen/Projects/octree/window/src/win.cpp",
   "file": "/home/tilen/Projects/octree/window/src/win.cpp"
 },
 {
   "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/cc -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -o window/CMakeFiles/window.dir/__/ext/glad/src/glad.c.o -c /home/tilen/Projects/octree/ext/glad/src/glad.c",
+  "command": "/usr/bin/cc -DIMGUI_IMPL_OPENGL_LOADER_GLAD -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -o window/CMakeFiles/window.dir/__/ext/glad/src/glad.c.o -c /home/tilen/Projects/octree/ext/glad/src/glad.c",
   "file": "/home/tilen/Projects/octree/ext/glad/src/glad.c"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/__/ext/imgui/imgui_draw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_draw.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_draw.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/__/ext/imgui/imgui_widgets.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_widgets.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_widgets.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/__/ext/imgui/imgui_tables.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_tables.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_tables.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/__/ext/imgui/imgui_demo.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui_demo.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui_demo.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/__/ext/imgui/imgui.cpp.o -c /home/tilen/Projects/octree/ext/imgui/imgui.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/imgui.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/__/ext/imgui/backends/imgui_impl_glfw.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_glfw.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_glfw.cpp"
-},
-{
-  "directory": "/home/tilen/Projects/octree/build/Debug",
-  "command": "/usr/bin/c++ -I/home/tilen/Projects/octree/window/include -I/home/tilen/Projects/octree/ext/glfw/include -I/home/tilen/Projects/octree/ext/glad/include -I/home/tilen/Projects/octree/ext/imgui -I/home/tilen/Projects/octree/ext/imgui/backends -g -std=gnu++17 -o window/CMakeFiles/window.dir/__/ext/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_opengl3.cpp",
-  "file": "/home/tilen/Projects/octree/ext/imgui/backends/imgui_impl_opengl3.cpp"
 }
 ]

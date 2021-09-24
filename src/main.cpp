@@ -1,14 +1,20 @@
-#include "../../ext/glfw/include/GLFW/glfw3.h"
-#include "../../ext/imgui/imgui.h"
-#include "../ext/glad/include/glad/glad.h"
-#include "../window/include/win.hpp"
+/* standard libraries */
 #include "stdio.h"
+
+/* external libraries */
+#include "glad/glad.h"
+#include "GLFW/glfw3.h"
+#include "imgui.h"
+/* project libraries */
+#include "win.hpp"
+
+
 using namespace arc;
 
 float backgorund[3];
 
-void OnWindowResize(GLFWwindow *_, int w, int h) { glViewport(0, 0, w, h); }
-void OnWindowClose(GLFWwindow *_) { Close(); }
+void OnWindowResize(int w, int h) { glViewport(0, 0, w, h); }
+void OnWindowClose() { Close(); }
 
 void ImGuiUpdate(double delta_time) {
   ImGui::Begin("Options");

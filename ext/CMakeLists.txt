@@ -11,10 +11,11 @@ add_subdirectory(glfw)
 add_subdirectory(glad)
 
 
-add_library(imgui OBJECT)
+add_library(imgui STATIC)
 
+target_compile_definitions(imgui PUBLIC IMGUI_IMPL_OPENGL_LOADER_GLAD)
 target_sources(imgui
-  PUBLIC
+  PRIVATE
   imgui/imgui_draw.cpp
   imgui/imgui_widgets.cpp
   imgui/imgui_tables.cpp

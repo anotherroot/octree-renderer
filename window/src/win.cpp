@@ -1,13 +1,17 @@
-#include "../include/win.hpp"
-#include "../../ext/glad/include/glad/glad.h"
-#include "../../ext/glfw/include/GLFW/glfw3.h"
-#include "../../ext/imgui/backends/imgui_impl_glfw.h"
-#include "../../ext/imgui/backends/imgui_impl_opengl3.h"
-#include "../../ext/imgui/imgui.h"
-
+/* standard libraries */
 #include "assert.h"
 #include "map"
 #include "stdio.h"
+/* external libraries */
+#include "glad/glad.h"
+#include "GLFW/glfw3.h"
+#include "imgui_impl_glfw.h"
+#include "imgui_impl_opengl3.h"
+#include "imgui.h"
+/* project libraries */
+#include "win.hpp"
+
+
 namespace arc {
 // structs
 struct Window {
@@ -20,6 +24,9 @@ struct Window {
 
   UpdateFn update_imgui_fn{nullptr};
   UpdateFn update_game_fn{nullptr};
+
+  CloseFn close_fn{[](){}};
+  ResizeFn resize_fn{[](int w, int h){}};
 };
 
 // declarations
@@ -100,11 +107,17 @@ int Dispose() {
   }
   return 1;
 }
-void SetResizeCallback(void fn(GLFWwindow *win, int w, int h)) {
-  glfwSetWindowSizeCallback((GLFWwindow *)win.win, fn);
+void SetResizeCallback(ResizeFn fn){
+  win.resize_fn = fn;
+  glfwSetWindowSizeCallback((GLFWwindow *)win.win, [](GLFWwindow*, int w, int h){
+      win.resize_fn(w,h);
+      });
 }
-void SetCloseCallback(void fn(GLFWwindow *win)) {
-  glfwSetWindowCloseCallback((GLFWwindow *)win.win, fn);
+void SetCloseCallback(CloseFn fn){
+  win.close_fn = fn;
+  glfwSetWindowCloseCallback((GLFWwindow *)win.win, [](GLFWwindow*){
+      win.close_fn();
+      });
 }
 void SetVsync(bool val) {
   assert(s_glfw_initialized);
